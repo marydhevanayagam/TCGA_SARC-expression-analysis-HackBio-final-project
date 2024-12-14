@@ -180,7 +180,7 @@ legend("topright", legend = c("OA group", "YA group"), fill = c("red", "blue"), 
 dev.off()
 
 
-# -------------------Functional enrichment analysis-----------------------------
+# -------------------Functional enrichment analysis (FEA)-----------------------------
 
 up.EA <- TCGAanalyze_EAcomplete(TFname = "Upregulated", upreg_gene_symbols) # produces result based on BP, CC, MF and Pathways(P)
 dn.EA <- TCGAanalyze_EAcomplete(TFname = "Downregulated", dnreg_gene_symbols)
@@ -210,4 +210,6 @@ EAbarplot_downreg_genes <- (TCGAvisualize_EAbarplot(tf = rownames(dn.EA$ResBP),
                                                     fig.width = 30,
                                                     fig.height = 15))
 
+
+# -----------------Transcription factor enrichment analysis (TFEA)-----------------------
 
