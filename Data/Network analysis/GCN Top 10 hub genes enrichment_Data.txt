@@ -1,0 +1,8 @@
+"Query:  - Complexity level3"
+"Cancer Module";"Hits";"p-value"
+"miRNA in AML";"2/35";"<1.0E-4"
+"Onco-fusion proteins in AML";"1/28";"<1.0E-4"
+"FLT3 in AML";"1/40";"<1.0E-4"
+"TGFb in cancer";"1/11";"<1.0E-4"
+"FLT3-ITD signaling";"2/70";"<1.0E-4"
+"AML1-ETO in AML";"1/18";"<1.0E-4"
