@@ -195,9 +195,7 @@ EAbarplot_upreg_genes <- (TCGAvisualize_EAbarplot(tf = rownames(up.EA$ResBP), #R
                                                   nBar = 5, #max number of bars is 5 but can be increased to 10
                                                   text.size = 2, # 2 
                                                   fig.width = 30, # size of figure
-                                                  fig.height = 15) #generates a pdf in the working directory
-)
-
+                                                  fig.height = 15)) #generates a pdf in the working directory
 
 EAbarplot_downreg_genes <- (TCGAvisualize_EAbarplot(tf = rownames(dn.EA$ResBP),
                                                     GOBPTab = dn.EA$ResBP, 
@@ -209,7 +207,3 @@ EAbarplot_downreg_genes <- (TCGAvisualize_EAbarplot(tf = rownames(dn.EA$ResBP),
                                                     text.size = 2, 
                                                     fig.width = 30,
                                                     fig.height = 15))
-
-
-# -----------------Transcription factor enrichment analysis (TFEA)-----------------------
-
