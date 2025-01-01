@@ -4,7 +4,7 @@ library(dplyr)
 library(gplots)
 library(ggplot2)
 library(reshape2)
-library(biomaRt)
+library(org.Hs.eg.db)
 
 gdcprojects<- getGDCprojects()
 
