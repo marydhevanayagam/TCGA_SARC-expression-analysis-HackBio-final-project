@@ -87,6 +87,7 @@ selectResults.levels$diff_exp[selectResults.levels$logFC > 1.5 & selectResults.l
 selectResults.levels$diff_exp[selectResults.levels$logFC < (-1.5) & selectResults.levels$FDR <0.005] <-"DOWN"
 
 table(selectResults.levels$diff_exp)
+
 # Obtain the gene names as gene symbols
 converted_gene_names<- mapIds(org.Hs.eg.db, 
                               keys = selectResults.levels$mRNA, 
@@ -207,3 +208,4 @@ EAbarplot_downreg_genes <- (TCGAvisualize_EAbarplot(tf = rownames(dn.EA$ResBP),
                                                     text.size = 2, 
                                                     fig.width = 30,
                                                     fig.height = 15))
+
