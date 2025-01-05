@@ -42,7 +42,7 @@ To install Bioconductor packages:
 * A query was prepared to retrieve "**Gene Expression Quantification**" data from the "**Transcriptome Profiling**" data category of the "**TCGA-SARC**" project, for the tissue types **"Primary Tumor", "Recurrent Tumor", "Metastatic"** using **GDCquery()** function. 
 * Using **GDCdownload()** and **GDCprepare()** functions of the TCGAbiolinks package, the sample sets were downloaded and prepared for analysis.  
 * From the retrieved data, metadata was obtained with the sample "**barcode**" and "**age\_at\_diagnosis**" fields.  
-* Samples with missing or inaccurate age at diagnosis values were excluded.  
+* Samples with missing or inaccurate "**age\_at\_diagnosis**" values were excluded.  
 * The values of the "**age\_at\_diagnosis**" subgroup were converted from days to years, and the samples were divided into two age groups based on the threshold of 23,741.25 days for 65 years and 6574.5 for 18 years: **OA** (Older age: ≥65 years) and **YA** (Younger age: 18-65 years). 
 * The unstranded dataset was selected for analysis.  
 * The **TCGAanalyze\_Normalization()** function was used to normalize the gene expression data by gene length and read depth.  
