@@ -44,7 +44,7 @@ To install Bioconductor packages:
 * From the retrieved data, metadata was obtained with the sample "**barcode**" and "**age\_at\_diagnosis**" fields.  
 * Samples with missing or inaccurate "**age\_at\_diagnosis**" values were excluded.  
 * The values of the "**age\_at\_diagnosis**" subgroup were converted from days to years, and the samples were divided into two age groups based on the threshold of 23,741.25 days for 65 years and 6574.5 for 18 years: **OA** (Older age: ≥65 years) and **YA** (Younger age: 18-65 years). 
-* The unstranded dataset was selected for analysis.  
+* The unstranded data was selected for analysis.  
 * The **TCGAanalyze\_Normalization()** function was used to normalize the gene expression data by gene length and read depth.  
 * The **TCGAanalyze\_Filtering()** function was used to eliminate low-expression genes from the normalized data with the cut-off set at the first quantile (0.25).  
 * The final filtered data was analyzed downstream for differential gene expression analysis (DGEA), functional enrichment analysis (FEA), transcription factor enrichment analysis (TFEA), gene-specific survival analysis, and network analysis.
