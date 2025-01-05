@@ -36,7 +36,7 @@ To install Bioconductor packages:
 
 ## 4. **Methodology \- Code**
 
-### **4.1.  Data acquisiion and preprocessing** 
+### **4.1.  Data acquisition and preprocessing** 
 
 * RNA-seq and clinical data of sarcoma patient samples ("**TCGA-SARC**" project) were acquired from TCGA using the **TCGAbiolinks** package functions in R.   
 * A query was prepared to retrieve "**Gene Expression Quantification**" data from the "**Transcriptome Profiling**" data category of the "**TCGA-SARC**" project, for the tissue types **"Primary Tumor", "Recurrent Tumor", "Metastatic"** using **GDCquery()** function. 
