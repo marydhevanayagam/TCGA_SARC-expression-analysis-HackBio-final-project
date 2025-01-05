@@ -13,7 +13,7 @@ In this project, RNA-seq data for sarcoma (SARC) from The Cancer Genome Atlas (T
 
 ## 3. **Requirements**
 
-   The following R libraries were used
+   The following R libraries were used:
 
 * TCGAbiolinks   
 * SummarizedExperiment  
