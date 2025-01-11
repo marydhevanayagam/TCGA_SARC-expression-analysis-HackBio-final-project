@@ -9,7 +9,7 @@ In this project, RNA-seq data for sarcoma (SARC) from The Cancer Genome Atlas (T
 * Code \- contains the R script of the code for data preprocessing, differential gene expression analysis (DGEA), and functional enrichment analysis (FEA).  
 * Data \- contains the data obtained after pre-processing, differential expression analysis, and network analysis.  
 * Images \- contains the results generated from DGEA, FEA, and protein-protein interaction (PPI) network.  
-* Report \- contains the project report.
+* Report \- contains the project report and supplementary material.
 
 ## 3. **Requirements**
 
